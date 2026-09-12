@@ -1,0 +1,6 @@
+{
+  "name": "Concepta",
+  "description": "Creative marketing agency helping businesses grow through marketing, paid advertising, content, design, and sales.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
