@@ -42,6 +42,13 @@ export interface IndustryNiche {
   icon: string;
 }
 
+export interface AdditionalIndustry {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
 export interface InquiryFormData {
   name: string;
   businessName: string;

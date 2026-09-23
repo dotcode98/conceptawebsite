@@ -49,24 +49,19 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
           {/* Col 7: Main Hero Messaging */}
           <div className="lg:col-span-7 flex flex-col justify-center">
-            <div className="mb-6">
-              <span className="text-violet-500 font-mono text-xs tracking-widest uppercase font-semibold">
-                Creative Marketing Agency
-              </span>
-            </div>
-
             <h1
               id="hero-main-headline"
               className="text-4xl sm:text-5xl md:text-6xl lg:text-[4rem] font-bold leading-[1.08] mb-6 sm:mb-8 tracking-tight font-display text-white"
             >
-              We Turn Ideas Into <span className="text-violet-400">Content</span> That Gets Attention — And Businesses That Grow.
+              Your Business Deserves{' '}
+              <span className="text-violet-400">More Than Just Marketing.</span>
             </h1>
 
             <p
               id="hero-subtext"
               className="text-lg sm:text-xl text-gray-400 max-w-lg mb-8 sm:mb-10 leading-relaxed font-normal"
             >
-              Concepta is a creative marketing agency helping businesses grow through marketing, paid advertising, content, design, and sales.
+              We build the strategy, content, and campaigns that make your brand stand out and move people to action.
             </p>
 
             <div id="hero-cta-buttons" className="flex flex-wrap gap-4 items-center">
@@ -86,16 +81,16 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
               </button>
             </div>
 
-            <div className="mt-10 sm:mt-12 flex flex-wrap items-center gap-3 sm:gap-4 text-xs font-mono text-gray-500 uppercase tracking-widest">
-              <span>Marketing</span>
-              <span>•</span>
-              <span>Ads</span>
-              <span>•</span>
-              <span>Content</span>
-              <span>•</span>
-              <span>Design</span>
-              <span>•</span>
-              <span>Sales</span>
+            <div className="mt-10 sm:mt-12 flex flex-wrap items-center gap-3 sm:gap-4 text-xs font-mono text-purple-300/80 uppercase tracking-widest">
+              <span className="text-purple-200">Marketing</span>
+              <span className="text-purple-400/50">•</span>
+              <span className="text-purple-200">Ads</span>
+              <span className="text-purple-400/50">•</span>
+              <span className="text-purple-200">Content</span>
+              <span className="text-purple-400/50">•</span>
+              <span className="text-purple-200">Design</span>
+              <span className="text-purple-400/50">•</span>
+              <span className="text-purple-200">Sales</span>
             </div>
           </div>
 

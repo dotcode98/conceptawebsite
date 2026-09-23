@@ -1,4 +1,4 @@
-import { ServiceItem, ApproachStep, CaseStudy, WhyPillar, IndustryNiche } from '../types';
+import { ServiceItem, ApproachStep, CaseStudy, WhyPillar, IndustryNiche, AdditionalIndustry } from '../types';
 
 export const HERO_TAGS = ['Marketing', 'Paid Ads', 'Content', 'Design', 'Sales'];
 
@@ -219,5 +219,62 @@ export const INDUSTRY_NICHES: IndustryNiche[] = [
     tagline: 'Build a stronger community and bring in new members.',
     description: 'High-octane workout video captures, member transformation stories, and hyper-local lead generation campaigns.',
     icon: 'Dumbbell',
+  },
+];
+
+export const ADDITIONAL_INDUSTRIES: AdditionalIndustry[] = [
+  {
+    id: 'ecommerce',
+    title: 'E-commerce & D2C Brands',
+    description: 'Create content and campaigns that attract, engage, and convert.',
+    icon: 'ShoppingBag',
+  },
+  {
+    id: 'technology',
+    title: 'Technology & SaaS',
+    description: 'Turn complex products into clear, compelling marketing.',
+    icon: 'Laptop',
+  },
+  {
+    id: 'startups',
+    title: 'Startups & New Brands',
+    description: 'Build a strong brand, content, and marketing foundation from the ground up.',
+    icon: 'Rocket',
+  },
+  {
+    id: 'healthcare',
+    title: 'Healthcare & Clinics',
+    description: 'Build trust, educate audiences, and attract more patients.',
+    icon: 'HeartPulse',
+  },
+  {
+    id: 'professional-services',
+    title: 'Professional Services',
+    description: 'Build authority and generate consistent, qualified enquiries.',
+    icon: 'ShieldCheck',
+  },
+  {
+    id: 'travel',
+    title: 'Travel & Hospitality',
+    description: 'Create visual experiences that inspire attention and bookings.',
+    icon: 'Compass',
+  },
+  {
+    id: 'automotive',
+    title: 'Automotive',
+    description: 'Showcase products, services, and offers through high-impact content.',
+    icon: 'Car',
+  },
+  {
+    id: 'creators',
+    title: 'Personal Brands & Creators',
+    description: 'Build a recognizable personal brand through strategic content.',
+    icon: 'UserCheck',
+  },
+  {
+    id: 'local-business',
+    title: 'Local Businesses',
+    description: 'Get discovered locally and turn attention into consistent enquiries.',
+    icon: 'Store',
   },
 ];
