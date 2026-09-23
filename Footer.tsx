@@ -104,44 +104,46 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-gray-500">
+        <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-5 sm:gap-4 text-xs font-mono text-gray-500 text-center md:text-left">
           <p>© 2026 Concepta. All rights reserved.</p>
 
           {/* Social handle links */}
-          <div className="flex items-center gap-4 text-gray-400">
-            <span className="text-gray-500">@growwithconcepta:</span>
+          <div className="flex flex-wrap items-center justify-center gap-x-3 sm:gap-4 gap-y-1.5 text-gray-400">
+            <span className="text-gray-500 w-full xs:w-auto block xs:inline mb-0.5 xs:mb-0">
+              @growwithconcepta:
+            </span>
             <a
               href="https://instagram.com/growwithconcepta"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-pink-400 transition-colors"
+              className="py-1 px-1 hover:text-pink-400 transition-colors"
             >
               Instagram
             </a>
-            <span className="text-zinc-700">•</span>
+            <span className="text-zinc-700 select-none">•</span>
             <a
               href="https://facebook.com/growwithconcepta"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-400 transition-colors"
+              className="py-1 px-1 hover:text-blue-400 transition-colors"
             >
               Facebook
             </a>
-            <span className="text-zinc-700">•</span>
+            <span className="text-zinc-700 select-none">•</span>
             <a
               href="https://linkedin.com/company/growwithconcepta"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-sky-400 transition-colors"
+              className="py-1 px-1 hover:text-sky-400 transition-colors"
             >
               LinkedIn
             </a>
           </div>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center justify-center gap-6">
             <button
               onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 text-gray-400 hover:text-white transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 text-gray-400 hover:text-white transition-colors cursor-pointer py-1 px-2"
             >
               <span>Back to top</span>
               <ArrowUp className="w-3.5 h-3.5" />
